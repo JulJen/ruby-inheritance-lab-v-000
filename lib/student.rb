@@ -11,6 +11,8 @@ class Student < Teacher
     @knowledge = []
   end
 
-  def learn
+  def learn(knowledge)
+    @knowledge = knowledge
+  end 
 
 end
