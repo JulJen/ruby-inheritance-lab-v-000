@@ -13,7 +13,7 @@ class Student < Teacher
 
   def learn(knowledge)
     @knowledge << knowledge
-    return @knowledge
+    return @knowledge.student
     # @knowledge.collect { |info| info.student }
   end
 
