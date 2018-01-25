@@ -11,8 +11,9 @@ class Student < Teacher
     @knowledge = []
   end
 
-  def learn(knowledge)
-    @knowledge << knowledge
+  def learn(know)
+    @knowledge << know
+    know
     # knowledge.student = self
     # @knowledge.collect { |info| info.student }
   end
